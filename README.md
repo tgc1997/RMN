@@ -6,7 +6,7 @@ framework with reasoning capacity. Specifically, our RMN employs 1)
 three sophisticated spatio-temporal reasoning modules, 
 and 2) a dynamic and discrete module selector trained by a linguistic loss with
 a Gumbel approximation. This code is the Pytorch implementation of our work.
-![image](https://github.com/tgc1997/RMN/tree/master/models/framework.png)
+![image](https://github.com/tgc1997/RMN/blob/master/models/framework.png)
 
 
 ## Environment
@@ -20,7 +20,7 @@ a Gumbel approximation. This code is the Pytorch implementation of our work.
 * tensorboard_logger
 
 ## Prepare
-1. Create two empty folders,`data` and `results`
+1. Create two empty folders, `data` and `results`
 2. Download [visual and text features]() of MSVD and MSR-VTT, and put them in `data` folder.
 3. Download [pre-trained models](), and put them in `results` folder.
 
