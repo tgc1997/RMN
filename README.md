@@ -1,6 +1,6 @@
 # Learning to Discretely Compose Reasoning Module Networks for Video Captioning (IJCAI2020)
 ## Introduction
-In this [paper](), we propose a novel visual reasoning approach for video captioning, 
+In this [paper](https://github.com/tgc1997/RMN/blob/master/camera_ready.pdf), we propose a novel visual reasoning approach for video captioning, 
 named Reasoning Module Networks (RMN), to equip the existing encoder-decoder 
 framework with reasoning capacity. Specifically, our RMN employs 1) 
 three sophisticated spatio-temporal reasoning modules, 
