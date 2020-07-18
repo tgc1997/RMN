@@ -42,7 +42,7 @@ CIDEr  | 97.8 | 49.6 |
 Evaluation command example:
 ```python
 python evaluate.py --dataset=msr-vtt --model=RMN \
- --result_dir=results \
+ --result_dir=results/msr-vtt_model \
  --use_loc --use_rel --use_func \
  --hidden_size=1300 --att_size=1024 \
  --test_batch_size=2 --beam_size=2 \
@@ -75,6 +75,9 @@ python sample.py --dataset=msr-vtt --model=RMN \
 ```
 By running this command, you can get the pie chart in the paper. And when uncommenting the 
 visualization code in `sample.py`, you can visualize the module selection process.
+
+## Video Captioning Papers
+[This repository](https://github.com/tgc1997/Awesome-Video-Captioning) contains a curated list of research papers in Video Captioning(from 2015 to 2020). Link to the code and project website if available.
 
 ## Citation
 If you use our code in your research or wish to refer to the baseline results, please use the following BibTeX entry.
