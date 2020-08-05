@@ -26,6 +26,8 @@ and [MSR-VTT](https://rec.ustc.edu.cn/share/26685ac0-ba08-11ea-866f-6fc664dfaa3b
 3. Download pre-trained models [msvd_model](https://rec.ustc.edu.cn/share/711b44e0-ba08-11ea-848d-b3f63a452975) 
 and [msr-vtt_model](https://rec.ustc.edu.cn/share/84993310-ba08-11ea-8055-0f1d6ef31a0d), and put them in `results` folder.
 
+> Download instruction ([#1](https://github.com/tgc1997/RMN/issues/1)): 1. enter the folder, 2. choose all files, 3. download.
+
 
 ## Evaluation
 We provide the pre-trained models of "RMN(H+L)" in the paper to reproduce the result reported in paper. 
