@@ -168,8 +168,8 @@ class LOCATE(nn.Module):
     def __init__(self, opt):
         super(LOCATE, self).__init__()
         # spatial soft attention module
-        self.spatial_attn = SoftAttention(opt.region_projected_size, opt.hidden_size, opt.hidden_size)
-
+        
+        self.spatial_attn = SoftAttention(opt.region_projected_size, opt.hidden_size, opt.att_size)
         # temporal soft attention module
         feat_size = opt.region_projected_size + opt.hidden_size * 2
         self.temp_attn = SoftAttention(feat_size, opt.hidden_size, opt.hidden_size)
